@@ -11,4 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  envPrefix: "VITE_", // Ensure only variables prefixed with VITE_ are exposed
 })

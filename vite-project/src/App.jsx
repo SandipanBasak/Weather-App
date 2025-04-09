@@ -20,7 +20,7 @@ function App() {
   const [searchHistory, setSearchHistory] = useState([]);
   const [theme, setTheme] = useState('light');
 
-  const API_KEY = '43d26b20750e00e8c5b46e4990ddd7ee';
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme') || 'light';
