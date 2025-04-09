@@ -37,3 +37,7 @@ Install my-project with npm
 `https://api.openweathermap.org/data/2.5/forecast?q=${searchCity}&appid=${API_KEY}&units=metric`
 
 
+## 🔗 Links
+[Netlify](https://capable-twilight-23c491.netlify.app/)
+
+
